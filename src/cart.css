@@ -1,0 +1,36 @@
+/* Add this CSS to your stylesheet or create a new one */
+
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-details {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card-price {
+    font-size: 1rem;
+    color: #007bff; /* Change the color to your preference */
+    margin: 0;
+}

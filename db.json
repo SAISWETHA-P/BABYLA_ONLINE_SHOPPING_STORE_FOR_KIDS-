@@ -1,0 +1,10 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "name": "A toddler thing Infants[Age 0-1]",
+      "price": "Rs.598",
+      "imageSrc": "Infants.JPG"
+    }
+  ]
+}

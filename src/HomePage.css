@@ -1,0 +1,163 @@
+/* HomePage.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:#e9bed7;
+  width: 100%; /* Extend the box-container to the end of the page */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.app-name {
+  font-size: 24px;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+  padding: 8px;
+  margin-left: 150px;
+}
+
+.search-button {
+  background-color: #87084c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Style for the action-icons container */
+.action-icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for each icon and text */
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 90px; /* Adjust the margin to create spacing */
+  color: #131414c5;
+}
+
+.icon i {
+  font-size: 24px;
+}
+
+.icon span {
+  font-size: 14px;
+}
+
+.categories {
+  display: flex;
+  margin-top: 10px;
+}
+
+.category {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin: 0 10px; /* Adjust the left and right margin to control spacing */
+  padding: 5px 60px; /* Add padding to control spacing */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  border-radius: 5px; /* Round the corners of the category links */
+  transition: background-color 0.2s; /* Add a smooth transition effect */
+}
+
+.category:hover {
+  background-color: #f0f0f0;
+  color: #cf4885;
+}
+
+/* HomePage.css */
+
+/* ... Previous styles ... */
+
+/* Trending Sales Heading */
+.trending-heading {
+font-size: 24px;
+margin: 20px 0;
+text-transform: uppercase;
+white-space: nowrap; /* Prevent text from wrapping to the next line */
+overflow: hidden; /* Hide overflow text */
+animation: scrollText 10s linear infinite; /* Apply the animation */
+color: #d35a9a;
+}
+
+@keyframes scrollText {
+0% {
+  transform: translateX(-100%); /* Start off the screen to the right */
+}
+100% {
+  transform: translateX(100%); /* End off the screen to the left */
+}
+}
+/* Clothing Items */
+.clothing-items {
+display: flex;
+flex-wrap: wrap; /* Allow items to wrap to the next row */
+justify-content: space-between; /* Distribute items evenly across rows */
+}
+
+.clothing-item {
+width: calc(23.33% - 10px); /* Three items in a row with some spacing between */
+margin-bottom: 20px;
+text-align: center;
+}
+
+.item-image {
+max-width: 100%;
+height: 70%;
+}
+
+.item-name {
+margin-top: 10px;
+font-size: 18px;
+}
+
+.item-price {
+margin-top: 5px;
+font-size: 16px;
+}
+
+.add-to-cart-button {
+background-color: #d35a9a;
+color: #fff;
+border: none;
+padding: 8px 16px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 10px;
+font-size: 16px;
+}
+
+/* ... Other styles ... */
